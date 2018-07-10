@@ -17,6 +17,6 @@ def input_to_char (user_char)
 end
 
 
-def move (board, index, char)
+def move (board, index, char = "X")
   board[index] = char
 end
