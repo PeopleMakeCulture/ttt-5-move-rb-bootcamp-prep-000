@@ -23,5 +23,5 @@ index = input_to_index(user_number)
 #char = input_to_char(user_char)
 
 # Print board with first move
-move(board, index, char = "X")
+move(board, index, char)
 display_board(board)
